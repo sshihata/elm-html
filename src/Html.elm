@@ -825,3 +825,10 @@ menu : List Attribute -> List Html -> Html
 menu =
   node "menu"
 
+
+-- NON ELEMENTS
+
+{-| Represents rendering nothing when some condition is not true. |-}
+nothing : Html
+nothing =
+  text ""
