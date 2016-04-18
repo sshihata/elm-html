@@ -828,7 +828,7 @@ menu =
 
 -- NON ELEMENTS
 
-{-| Represents rendering nothing when some condition is not true. |-}
+{-| Represents rendering nothing. Useful for when you want to optionally render an element. |-}
 nothing : Html
 nothing =
   text ""
